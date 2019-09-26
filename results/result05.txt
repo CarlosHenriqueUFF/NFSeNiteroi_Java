@@ -1,0 +1,300 @@
+
+system id
+xmldsig-core-schema20020212.xsd
+stream
+sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream@311ff287
+sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream@5034f5dd
+xml assinado
+<EnviarLoteRpsEnvio xmlns="http://www.abrasf.org.br/nfse.xsd" xmlns:ns2="http://
+www.w3.org/2000/09/xmldsig#"><LoteRps Id="Lote15" versao="2.02"><NumeroLote>15</
+NumeroLote><CpfCnpj><Cnpj>17268481000113</Cnpj></CpfCnpj><InscricaoMunicipal>162
+6688</InscricaoMunicipal><QuantidadeRps>2</QuantidadeRps><ListaRps><Rps><InfDecl
+aracaoPrestacaoServico Id="Rps1"><Rps><IdentificacaoRps><Numero>1</Numero><Serie
+>1</Serie><Tipo>1</Tipo></IdentificacaoRps><DataEmissao>2017-10-11</DataEmissao>
+<Status>1</Status></Rps><Competencia>2017-10-11</Competencia><Servico><Valores><
+ValorServicos>57</ValorServicos><ValorDeducoes>0</ValorDeducoes><ValorPis>0</Val
+orPis><ValorCofins>0</ValorCofins><ValorInss>0</ValorInss><ValorIr>0</ValorIr><V
+alorCsll>0</ValorCsll><OutrasRetencoes>0</OutrasRetencoes><ValorIss>1.14</ValorI
+ss><Aliquota>2</Aliquota><DescontoIncondicionado>0</DescontoIncondicionado><Desc
+ontoCondicionado>0</DescontoCondicionado></Valores><IssRetido>2</IssRetido><Item
+ListaServico>0407</ItemListaServico><CodigoCnae>4771702</CodigoCnae><CodigoTribu
+tacaoMunicipio>0407</CodigoTributacaoMunicipio><Discriminacao>N.VENDA 220273
+BISCOITOS VENDA DE VALERIANA 57,00
+CART√É∆?O CREDITO VISA.</Discriminacao><CodigoMunicipio>9999999</CodigoMunicipio
+><ExigibilidadeISS>1</ExigibilidadeISS><MunicipioIncidencia>9999999</MunicipioIn
+cidencia></Servico><Prestador><CpfCnpj><Cnpj>17268481000113</Cnpj></CpfCnpj><Ins
+cricaoMunicipal>1626688</InscricaoMunicipal></Prestador><Tomador><IdentificacaoT
+omador><CpfCnpj><Cpf>88484602753</Cpf></CpfCnpj></IdentificacaoTomador><RazaoSoc
+ial>ROSANGELA FERNANDES BRANDAO</RazaoSocial><Endereco><Endereco>Rua Cinco de Ju
+lho</Endereco><Numero>304</Numero><Complemento>APT 703</Complemento><Bairro>ICAR
+AI</Bairro><CodigoMunicipio>3303302</CodigoMunicipio><Uf>RJ</Uf><Cep>24220111</C
+ep></Endereco><Contato><Telefone>(21) 2710-7279</Telefone><Email>roro_brandaodeo
+liveira@yahoo.com.br</Email></Contato></Tomador><OptanteSimplesNacional>1</Optan
+teSimplesNacional><IncentivoFiscal>2</IncentivoFiscal></InfDeclaracaoPrestacaoSe
+rvico><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><Canonic
+alizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><Si
+gnatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference
+ URI="#Rps1"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig
+#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c
+14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/x
+mldsig#sha1"/><DigestValue>P1OrwnZtNJ61sYhmaKOon6qw+BI=</DigestValue></Reference
+></SignedInfo><SignatureValue>dEU6flFPNpdvUG+0SmN3oYJn7R5FNESbuN53ifhGabcUJJiQz5
+ZhxCJ6w4MiPxYHjSF9/D7uBfGE
+o0m/iz/mWeK2yp2Qxq4T7eoMyaGsP3YVFZ/Zibvq0vPQfj6CtVgN9s+CgsJ/XUVsphMREqnVnXRd
+Gfmw9gLCcqqTAX+E8wT/TjlVpoI2mGvWhtT1Hx/NxDRTg6aFmBFgArNeT4WrhrqQ+FJ5U2zd/wQ0
+RnP4STbVxGABEa40cPfkPd7mUGkUmq8pLoPwGEtppInKgdGrgUIg7qMQHl3RiGheMWiI6/os4wxB
+wU4ysOt08CJqb4FctSVt6Bi0CN+V8M+Q294ZQQ==</SignatureValue><KeyInfo><X509Data><X50
+9Certificate>MIIIFjCCBf6gAwIBAgIIQ0mMpwz1eUQwDQYJKoZIhvcNAQELBQAwcTELMAkGA1UEBhM
+CQlIxEzAR
+BgNVBAoTCklDUC1CcmFzaWwxNjA0BgNVBAsTLVNlY3JldGFyaWEgZGEgUmVjZWl0YSBGZWRlcmFs
+IGRvIEJyYXNpbCAtIFJGQjEVMBMGA1UEAxMMQUMgVkFMSUQgUkZCMB4XDTE2MDgwNDEzMTAxM1oX
+DTE5MDgwNDEzMTAxM1owgeYxCzAJBgNVBAYTAkJSMQswCQYDVQQIEwJSSjEQMA4GA1UEBxMHTklU
+RVJPSTETMBEGA1UEChMKSUNQLUJyYXNpbDE2MDQGA1UECxMtU2VjcmV0YXJpYSBkYSBSZWNlaXRh
+IEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRYwFAYDVQQLEw1SRkIgZS1DTlBKIEEzMQ8wDQYDVQQL
+EwZBUiBTSUMxQjBABgNVBAMTOUNBTyBFIENJQSBGQVJNQUNJQSBERSBNQU5JUFVMQUNBTyBMVERB
+IEVQUDoxNzI2ODQ4MTAwMDExMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJbzcxa6
+Go7wB6fX9gOQytfQnuOhGXri5ofytIU2i6UWcNV24kwC3DURf/8dx6XQU5lli26JzXUaF+vxX6sN
+UrJ+ZZpop19d7h/M6cHh9SFYIfCXzo3yApoYG9Sj/nm5aZxIvGOUBA9vw1yKZp3Dtvh8Ur2z3PtT
+U11OgnIrMTJE9iHD/eLaqaMGXXZdmFmh6flW/fWFy9Lihn2urW0sWIp6vn5k1yikTph7diGgF6jl
+e94lSCKyoN0WxsL2dpSpdFXsZFkG/mUFde0S8H0JR5vMT3DOFORHHxl64HUrXNcsntgZ2k34rcVX
+mvCKTPO6A+D1ttwDu2rR1+6mYAp4uCsCAwEAAaOCAzowggM2MIGaBggrBgEFBQcBAQSBjTCBijBV
+BggrBgEFBQcwAoZJaHR0cDovL2ljcC1icmFzaWwudmFsaWRjZXJ0aWZpY2Fkb3JhLmNvbS5ici9h
+Yy12YWxpZHJmYi9hYy12YWxpZHJmYnYyLnA3YjAxBggrBgEFBQcwAYYlaHR0cDovL29jc3AudmFs
+aWRjZXJ0aWZpY2Fkb3JhLmNvbS5icjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFEe5CFnYQvaS
+/Pd8FXwmgEpFkX6fMG4GA1UdIARnMGUwYwYGYEwBAgMkMFkwVwYIKwYBBQUHAgEWS2h0dHA6Ly9p
+Y3AtYnJhc2lsLnZhbGlkY2VydGlmaWNhZG9yYS5jb20uYnIvYWMtdmFsaWRyZmIvZHBjLWFjLXZh
+bGlkcmZiLnBkZjCCAQEGA1UdHwSB+TCB9jBToFGgT4ZNaHR0cDovL2ljcC1icmFzaWwudmFsaWRj
+ZXJ0aWZpY2Fkb3JhLmNvbS5ici9hYy12YWxpZHJmYi9sY3ItYWMtdmFsaWRyZmJ2Mi5jcmwwVKBS
+oFCGTmh0dHA6Ly9pY3AtYnJhc2lsMi52YWxpZGNlcnRpZmljYWRvcmEuY29tLmJyL2FjLXZhbGlk
+cmZiL2xjci1hYy12YWxpZHJmYnYyLmNybDBJoEegRYZDaHR0cDovL3JlcG9zaXRvcmlvLmljcGJy
+YXNpbC5nb3YuYnIvbGNyL1ZBTElEL2xjci1hYy12YWxpZHJmYnYyLmNybDAOBgNVHQ8BAf8EBAMC
+BeAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMIHDBgNVHREEgbswgbiBF2lzZ3VlcnJl
+aXJvQGhvdG1haWwuY29toEAGBWBMAQMEoDcENTE3MDMxOTc3MDcyMTM1NDM3ODQwMDAwMDAwMDAw
+MDAwMDAwMDEwNzExMDc2OURFVFJBTlJKoCcGBWBMAQMCoB4EHElTQUJFTEEgRE9TIFNBTlRPUyBH
+VUVSUkVJUk+gGQYFYEwBAwOgEAQOMTcyNjg0ODEwMDAxMTOgFwYFYEwBAwegDgQMMDAwMDAwMDAw
+MDAwMA0GCSqGSIb3DQEBCwUAA4ICAQDGrEnS6CypjOYVjvbdktlIDC5Hg/CwKI7LHhRVxxAaz3vC
+IH2JGkvFNhJp4qmbP1nWBGcq6Oq2rB2tbVB6KIno8kgR/mZd1j7HprogGCi+uk7DSJbiRlPpDPoC
+8kK5c10FoCP27IECyuIOPbXLLwbkxwzKRahbV4dYSUtUltNgZpigTUtZyuzeFPXUL7DV3I6pE8u4
+/43drM+KCo6l/yFOUdXJh36tM6V7hHYUPaq5XFfgI9DqRsqCZgSezJDHAPuZTx7/NR/vvGLIN4cK
+DUy+oDKsa3KLAlbr3zhsF6lRWowQq1nYLkxGQS0AMeSiXjh73Z8/qlbfVx4a/jadTRv+vmVwDtUf
+jQ0eGxKGDYEWEBRDS73KUyNSBKOnw0LbHnYoB/wFv5G7K4KfECzgvU8cFcm+zMDHVboxLWD5R8/z
+xjhoy86r6IErHpFg/7eVFj4iR8zGBlpBd20nNtrKmZrX4VeR8K6kMaV9CN2OD3EDUdSSyLLVGm06
+eDXm+SomOIKU2nkNALRorfr/fbZ6EGAB3/G7KkpQcwwm9cn4mtoSjWqG+gGr7jmE7DlmZWHitWEp
+yj8dw6llGx9OQ80WXGAXcKs7+zuULoVloZptTlpvwZ3PxJejiMpuseHx6zUbSdYvlCErbt2+g0z/
+mJl6PJmeYuXJfMZnP301hn6fA5nFJA==</X509Certificate></X509Data></KeyInfo></Signatu
+re></Rps><Rps><InfDeclaracaoPrestacaoServico Id="Rps2"><Rps><IdentificacaoRps><N
+umero>2</Numero><Serie>1</Serie><Tipo>1</Tipo></IdentificacaoRps><DataEmissao>20
+17-10-18</DataEmissao><Status>1</Status></Rps><Competencia>2017-10-18</Competenc
+ia><Servico><Valores><ValorServicos>100.9</ValorServicos><Aliquota>5</Aliquota><
+/Valores><IssRetido>2</IssRetido><ItemListaServico>0407</ItemListaServico><Codig
+oCnae>4771702</CodigoCnae><CodigoTributacaoMunicipio>0407</CodigoTributacaoMunic
+ipio><Discriminacao>N.VENDA 220275
+BISCOITOS VENDA DE SILIMARINA 100.90
+DINHEIRO A VISTA</Discriminacao><CodigoMunicipio>9999999</CodigoMunicipio><Exigi
+bilidadeISS>1</ExigibilidadeISS><MunicipioIncidencia>9999999</MunicipioIncidenci
+a></Servico><Prestador><CpfCnpj><Cnpj>17268481000113</Cnpj></CpfCnpj><InscricaoM
+unicipal>1626688</InscricaoMunicipal></Prestador><Tomador><IdentificacaoTomador>
+<CpfCnpj><Cpf>11114647748</Cpf></CpfCnpj></IdentificacaoTomador><RazaoSocial>CAR
+LOS HENRIQUE CARVALHO DA SILVA</RazaoSocial><Endereco><Endereco>RUA CARDEAL BELA
+RMINO</Endereco><Numero>140</Numero><Complemento>CASA 04</Complemento><Bairro>LA
+RANJAL</Bairro><CodigoMunicipio>3304904</CodigoMunicipio><Uf>RJ</Uf><Cep>2472512
+0</Cep></Endereco><Contato><Telefone>21986334361</Telefone><Email>henriquezplay@
+hotmail.com</Email></Contato></Tomador><OptanteSimplesNacional>1</OptanteSimples
+Nacional><IncentivoFiscal>2</IncentivoFiscal></InfDeclaracaoPrestacaoServico><Si
+gnature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><Canonicalization
+Method Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMe
+thod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#Rp
+s2"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#envelope
+d-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010
+315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sh
+a1"/><DigestValue>N7j44g5JroU7sOoDq72R7Fi80os=</DigestValue></Reference></Signed
+Info><SignatureValue>MBsNqP8WP7kxbQWtEVDb7xYJJW4GUWsUPX3YprP8kIilEFAfItsiH8r/juY
+q7RyTYDXyVL4Rsm9C
+vp4ERN+yFx9oAZ41yZHrHoXDjly56xxicN4ksBdmSFVcK1Vg2oXDDWp9bGWghJzlvcAM5pmxJPxv
+5ff1iExbETXqy0Tm733G8DDUjk0zE2NYutD6QXynO456CfzONn2L1KZLJQMR8Zaz5yGmg+zWZK51
+kIc0QzyeVJz89qzCYruMvoKDiR4r3msFXZ8+jt++HOTk8UTQa9fOI/+CS2Y8UHNdBcUaOD/Xs3qs
+hs9YPpznSOFephaG0h+Y9spMej/QaMtYtYeFhQ==</SignatureValue><KeyInfo><X509Data><X50
+9Certificate>MIIIFjCCBf6gAwIBAgIIQ0mMpwz1eUQwDQYJKoZIhvcNAQELBQAwcTELMAkGA1UEBhM
+CQlIxEzAR
+BgNVBAoTCklDUC1CcmFzaWwxNjA0BgNVBAsTLVNlY3JldGFyaWEgZGEgUmVjZWl0YSBGZWRlcmFs
+IGRvIEJyYXNpbCAtIFJGQjEVMBMGA1UEAxMMQUMgVkFMSUQgUkZCMB4XDTE2MDgwNDEzMTAxM1oX
+DTE5MDgwNDEzMTAxM1owgeYxCzAJBgNVBAYTAkJSMQswCQYDVQQIEwJSSjEQMA4GA1UEBxMHTklU
+RVJPSTETMBEGA1UEChMKSUNQLUJyYXNpbDE2MDQGA1UECxMtU2VjcmV0YXJpYSBkYSBSZWNlaXRh
+IEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRYwFAYDVQQLEw1SRkIgZS1DTlBKIEEzMQ8wDQYDVQQL
+EwZBUiBTSUMxQjBABgNVBAMTOUNBTyBFIENJQSBGQVJNQUNJQSBERSBNQU5JUFVMQUNBTyBMVERB
+IEVQUDoxNzI2ODQ4MTAwMDExMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJbzcxa6
+Go7wB6fX9gOQytfQnuOhGXri5ofytIU2i6UWcNV24kwC3DURf/8dx6XQU5lli26JzXUaF+vxX6sN
+UrJ+ZZpop19d7h/M6cHh9SFYIfCXzo3yApoYG9Sj/nm5aZxIvGOUBA9vw1yKZp3Dtvh8Ur2z3PtT
+U11OgnIrMTJE9iHD/eLaqaMGXXZdmFmh6flW/fWFy9Lihn2urW0sWIp6vn5k1yikTph7diGgF6jl
+e94lSCKyoN0WxsL2dpSpdFXsZFkG/mUFde0S8H0JR5vMT3DOFORHHxl64HUrXNcsntgZ2k34rcVX
+mvCKTPO6A+D1ttwDu2rR1+6mYAp4uCsCAwEAAaOCAzowggM2MIGaBggrBgEFBQcBAQSBjTCBijBV
+BggrBgEFBQcwAoZJaHR0cDovL2ljcC1icmFzaWwudmFsaWRjZXJ0aWZpY2Fkb3JhLmNvbS5ici9h
+Yy12YWxpZHJmYi9hYy12YWxpZHJmYnYyLnA3YjAxBggrBgEFBQcwAYYlaHR0cDovL29jc3AudmFs
+aWRjZXJ0aWZpY2Fkb3JhLmNvbS5icjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFEe5CFnYQvaS
+/Pd8FXwmgEpFkX6fMG4GA1UdIARnMGUwYwYGYEwBAgMkMFkwVwYIKwYBBQUHAgEWS2h0dHA6Ly9p
+Y3AtYnJhc2lsLnZhbGlkY2VydGlmaWNhZG9yYS5jb20uYnIvYWMtdmFsaWRyZmIvZHBjLWFjLXZh
+bGlkcmZiLnBkZjCCAQEGA1UdHwSB+TCB9jBToFGgT4ZNaHR0cDovL2ljcC1icmFzaWwudmFsaWRj
+ZXJ0aWZpY2Fkb3JhLmNvbS5ici9hYy12YWxpZHJmYi9sY3ItYWMtdmFsaWRyZmJ2Mi5jcmwwVKBS
+oFCGTmh0dHA6Ly9pY3AtYnJhc2lsMi52YWxpZGNlcnRpZmljYWRvcmEuY29tLmJyL2FjLXZhbGlk
+cmZiL2xjci1hYy12YWxpZHJmYnYyLmNybDBJoEegRYZDaHR0cDovL3JlcG9zaXRvcmlvLmljcGJy
+YXNpbC5nb3YuYnIvbGNyL1ZBTElEL2xjci1hYy12YWxpZHJmYnYyLmNybDAOBgNVHQ8BAf8EBAMC
+BeAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMIHDBgNVHREEgbswgbiBF2lzZ3VlcnJl
+aXJvQGhvdG1haWwuY29toEAGBWBMAQMEoDcENTE3MDMxOTc3MDcyMTM1NDM3ODQwMDAwMDAwMDAw
+MDAwMDAwMDEwNzExMDc2OURFVFJBTlJKoCcGBWBMAQMCoB4EHElTQUJFTEEgRE9TIFNBTlRPUyBH
+VUVSUkVJUk+gGQYFYEwBAwOgEAQOMTcyNjg0ODEwMDAxMTOgFwYFYEwBAwegDgQMMDAwMDAwMDAw
+MDAwMA0GCSqGSIb3DQEBCwUAA4ICAQDGrEnS6CypjOYVjvbdktlIDC5Hg/CwKI7LHhRVxxAaz3vC
+IH2JGkvFNhJp4qmbP1nWBGcq6Oq2rB2tbVB6KIno8kgR/mZd1j7HprogGCi+uk7DSJbiRlPpDPoC
+8kK5c10FoCP27IECyuIOPbXLLwbkxwzKRahbV4dYSUtUltNgZpigTUtZyuzeFPXUL7DV3I6pE8u4
+/43drM+KCo6l/yFOUdXJh36tM6V7hHYUPaq5XFfgI9DqRsqCZgSezJDHAPuZTx7/NR/vvGLIN4cK
+DUy+oDKsa3KLAlbr3zhsF6lRWowQq1nYLkxGQS0AMeSiXjh73Z8/qlbfVx4a/jadTRv+vmVwDtUf
+jQ0eGxKGDYEWEBRDS73KUyNSBKOnw0LbHnYoB/wFv5G7K4KfECzgvU8cFcm+zMDHVboxLWD5R8/z
+xjhoy86r6IErHpFg/7eVFj4iR8zGBlpBd20nNtrKmZrX4VeR8K6kMaV9CN2OD3EDUdSSyLLVGm06
+eDXm+SomOIKU2nkNALRorfr/fbZ6EGAB3/G7KkpQcwwm9cn4mtoSjWqG+gGr7jmE7DlmZWHitWEp
+yj8dw6llGx9OQ80WXGAXcKs7+zuULoVloZptTlpvwZ3PxJejiMpuseHx6zUbSdYvlCErbt2+g0z/
+mJl6PJmeYuXJfMZnP301hn6fA5nFJA==</X509Certificate></X509Data></KeyInfo></Signatu
+re></Rps></ListaRps></LoteRps><Signature xmlns="http://www.w3.org/2000/09/xmldsi
+g#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC
+-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmlds
+ig#rsa-sha1"/><Reference URI="#Lote15"><Transforms><Transform Algorithm="http://
+www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://ww
+w.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="h
+ttp://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>fP3C0aI0rhhbYXe44woD60ZVCEc
+=</DigestValue></Reference></SignedInfo><SignatureValue>iIr8gFsK+T83wHYzH3obyCy8
+qLyUZ0Nb9nps4kd43m3EDz4rjasCB7L063/Zqi6fTE+nHlo7F8LW
+Cu/Lj+G95oqaV8zVXeH0NNZeDK0g9g+S4EJ8Zy/biTY7b2CwmRB0yXD6uYjhVzsPGagbwuKKovHt
+lhwmPXd3aymkuM2tDYPb1sZyTTq817PdCxyIXX1ElLsxU9V3kjct7zxGE7fhXhaF/s/W6+YUrOme
+pDFWGXc2ff8E4efhpUNog9enIuYMRxVaQGt3h2vig0YAjDs1WZFXUDgcNA/HtagDW+7n2aj/A9Y3
+bBlSKxo6C/BodKxCWJ0edV0Pl5s0/HuZNHpu2g==</SignatureValue><KeyInfo><X509Data><X50
+9Certificate>MIIIFjCCBf6gAwIBAgIIQ0mMpwz1eUQwDQYJKoZIhvcNAQELBQAwcTELMAkGA1UEBhM
+CQlIxEzAR
+BgNVBAoTCklDUC1CcmFzaWwxNjA0BgNVBAsTLVNlY3JldGFyaWEgZGEgUmVjZWl0YSBGZWRlcmFs
+IGRvIEJyYXNpbCAtIFJGQjEVMBMGA1UEAxMMQUMgVkFMSUQgUkZCMB4XDTE2MDgwNDEzMTAxM1oX
+DTE5MDgwNDEzMTAxM1owgeYxCzAJBgNVBAYTAkJSMQswCQYDVQQIEwJSSjEQMA4GA1UEBxMHTklU
+RVJPSTETMBEGA1UEChMKSUNQLUJyYXNpbDE2MDQGA1UECxMtU2VjcmV0YXJpYSBkYSBSZWNlaXRh
+IEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRYwFAYDVQQLEw1SRkIgZS1DTlBKIEEzMQ8wDQYDVQQL
+EwZBUiBTSUMxQjBABgNVBAMTOUNBTyBFIENJQSBGQVJNQUNJQSBERSBNQU5JUFVMQUNBTyBMVERB
+IEVQUDoxNzI2ODQ4MTAwMDExMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJbzcxa6
+Go7wB6fX9gOQytfQnuOhGXri5ofytIU2i6UWcNV24kwC3DURf/8dx6XQU5lli26JzXUaF+vxX6sN
+UrJ+ZZpop19d7h/M6cHh9SFYIfCXzo3yApoYG9Sj/nm5aZxIvGOUBA9vw1yKZp3Dtvh8Ur2z3PtT
+U11OgnIrMTJE9iHD/eLaqaMGXXZdmFmh6flW/fWFy9Lihn2urW0sWIp6vn5k1yikTph7diGgF6jl
+e94lSCKyoN0WxsL2dpSpdFXsZFkG/mUFde0S8H0JR5vMT3DOFORHHxl64HUrXNcsntgZ2k34rcVX
+mvCKTPO6A+D1ttwDu2rR1+6mYAp4uCsCAwEAAaOCAzowggM2MIGaBggrBgEFBQcBAQSBjTCBijBV
+BggrBgEFBQcwAoZJaHR0cDovL2ljcC1icmFzaWwudmFsaWRjZXJ0aWZpY2Fkb3JhLmNvbS5ici9h
+Yy12YWxpZHJmYi9hYy12YWxpZHJmYnYyLnA3YjAxBggrBgEFBQcwAYYlaHR0cDovL29jc3AudmFs
+aWRjZXJ0aWZpY2Fkb3JhLmNvbS5icjAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFEe5CFnYQvaS
+/Pd8FXwmgEpFkX6fMG4GA1UdIARnMGUwYwYGYEwBAgMkMFkwVwYIKwYBBQUHAgEWS2h0dHA6Ly9p
+Y3AtYnJhc2lsLnZhbGlkY2VydGlmaWNhZG9yYS5jb20uYnIvYWMtdmFsaWRyZmIvZHBjLWFjLXZh
+bGlkcmZiLnBkZjCCAQEGA1UdHwSB+TCB9jBToFGgT4ZNaHR0cDovL2ljcC1icmFzaWwudmFsaWRj
+ZXJ0aWZpY2Fkb3JhLmNvbS5ici9hYy12YWxpZHJmYi9sY3ItYWMtdmFsaWRyZmJ2Mi5jcmwwVKBS
+oFCGTmh0dHA6Ly9pY3AtYnJhc2lsMi52YWxpZGNlcnRpZmljYWRvcmEuY29tLmJyL2FjLXZhbGlk
+cmZiL2xjci1hYy12YWxpZHJmYnYyLmNybDBJoEegRYZDaHR0cDovL3JlcG9zaXRvcmlvLmljcGJy
+YXNpbC5nb3YuYnIvbGNyL1ZBTElEL2xjci1hYy12YWxpZHJmYnYyLmNybDAOBgNVHQ8BAf8EBAMC
+BeAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMIHDBgNVHREEgbswgbiBF2lzZ3VlcnJl
+aXJvQGhvdG1haWwuY29toEAGBWBMAQMEoDcENTE3MDMxOTc3MDcyMTM1NDM3ODQwMDAwMDAwMDAw
+MDAwMDAwMDEwNzExMDc2OURFVFJBTlJKoCcGBWBMAQMCoB4EHElTQUJFTEEgRE9TIFNBTlRPUyBH
+VUVSUkVJUk+gGQYFYEwBAwOgEAQOMTcyNjg0ODEwMDAxMTOgFwYFYEwBAwegDgQMMDAwMDAwMDAw
+MDAwMA0GCSqGSIb3DQEBCwUAA4ICAQDGrEnS6CypjOYVjvbdktlIDC5Hg/CwKI7LHhRVxxAaz3vC
+IH2JGkvFNhJp4qmbP1nWBGcq6Oq2rB2tbVB6KIno8kgR/mZd1j7HprogGCi+uk7DSJbiRlPpDPoC
+8kK5c10FoCP27IECyuIOPbXLLwbkxwzKRahbV4dYSUtUltNgZpigTUtZyuzeFPXUL7DV3I6pE8u4
+/43drM+KCo6l/yFOUdXJh36tM6V7hHYUPaq5XFfgI9DqRsqCZgSezJDHAPuZTx7/NR/vvGLIN4cK
+DUy+oDKsa3KLAlbr3zhsF6lRWowQq1nYLkxGQS0AMeSiXjh73Z8/qlbfVx4a/jadTRv+vmVwDtUf
+jQ0eGxKGDYEWEBRDS73KUyNSBKOnw0LbHnYoB/wFv5G7K4KfECzgvU8cFcm+zMDHVboxLWD5R8/z
+xjhoy86r6IErHpFg/7eVFj4iR8zGBlpBd20nNtrKmZrX4VeR8K6kMaV9CN2OD3EDUdSSyLLVGm06
+eDXm+SomOIKU2nkNALRorfr/fbZ6EGAB3/G7KkpQcwwm9cn4mtoSjWqG+gGr7jmE7DlmZWHitWEp
+yj8dw6llGx9OQ80WXGAXcKs7+zuULoVloZptTlpvwZ3PxJejiMpuseHx6zUbSdYvlCErbt2+g0z/
+mJl6PJmeYuXJfMZnP301hn6fA5nFJA==</X509Certificate></X509Data></KeyInfo></Signatu
+re></EnviarLoteRpsEnvio>
+
+
+system id
+xmldsig-core-schema20020212.xsd
+stream
+sun.net.www.protocol.jar.JarURLConnection$JarURLInputStream@27df95e
+setXmlEnvio: null
+setXmlRetorno: null
+xml retorno
+<?xml version="1.0" encoding="utf-8"?>
+<EnviarLoteRpsResposta xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="h
+ttp://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.abrasf.org.br/nfse.x
+sd">
+  <ListaMensagemRetorno>
+    <MensagemRetorno>
+      <Codigo>E172</Codigo>
+      <Mensagem>Arquivo enviado com erro na assinatura.  Erro no elemento:  Rps<
+/Mensagem>
+      <Correcao>Acerte a assinatura do arquivo.</Correcao>
+    </MensagemRetorno>
+    <MensagemRetorno>
+      <Codigo>E324</Codigo>
+      <Mensagem>Assinatura do RPS inv·lida. </Mensagem>
+      <Correcao>O RPS deve conter assinatura digital vinculada a certificado dig
+ital padr„o ICP Brasil, n„o revogado e n„o expirado.</Correcao>
+    </MensagemRetorno>
+    <MensagemRetorno>
+      <Codigo>E172</Codigo>
+      <Mensagem>Arquivo enviado com erro na assinatura.  Erro no elemento:  Envi
+arLoteRpsEnvio</Mensagem>
+      <Correcao>Acerte a assinatura do arquivo.</Correcao>
+    </MensagemRetorno>
+    <MensagemRetorno>
+      <Codigo>E325</Codigo>
+      <Mensagem>Assinatura do lote de RPS inv·lida. </Mensagem>
+      <Correcao>O lote de RPS deve conter assinatura digital vinculada a certifi
+cado digital padr„o ICP Brasil, n„o revogado e n„o expirado.</Correcao>
+    </MensagemRetorno>
+  </ListaMensagemRetorno>
+</EnviarLoteRpsResposta>
+[EL Warning]: sql: 2017-10-21 21:37:36.869--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.874--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.874--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.874--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.874--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.874--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.874--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.874--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.874--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.879--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.879--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.879--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.884--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.964--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.964--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.969--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.969--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.969--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.969--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.969--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.969--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.969--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.969--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.974--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.974--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+[EL Warning]: sql: 2017-10-21 21:37:36.974--ServerSession(317644782)--java.sql.S
+QLException: not implemented by SQLite JDBC driver
+
+C:\NFSe>

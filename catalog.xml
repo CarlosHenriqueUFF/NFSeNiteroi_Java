@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/NFSe/xml-resources/web-service-references/ws/wsdl/ws.wsdl" uri="xml-resources/web-service-references/ws/wsdl/ws.wsdl"/>
+    <system systemId="file:/E:/Drogavet/Nota%20Fiscal%20Eletronica/Projetos%20prontos/NFSe-Maringa-master-old/wsdl/ws.wsdl" uri="xml-resources/web-service-references/ws/wsdl/ws.wsdl"/>
+    <system systemId="file:/E:/Drogavet/Nota%20Fiscal%20Eletronica/Projetos%20prontos/NFSe-Maringa-master-old/src/META-INF/wsdl/ws.wsdl" uri="xml-resources/web-service-references/ws/wsdl/ws.wsdl"/>
+    <system systemId="file:/E:/Drogavet/Nota%20Fiscal%20Eletronica/Projetos%20prontos/NFSe-Maringa-master/src/META-INF/wsdl/ws.wsdl" uri="xml-resources/web-service-references/ws/wsdl/ws.wsdl"/>
+</catalog>

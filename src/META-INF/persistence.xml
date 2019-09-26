@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="DrogavetBoleto2PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>webiss.niteroi.nfse.model.Envio</class>
+    <class>webiss.niteroi.nfse.model.Cancelamento</class>
+    <class>webiss.niteroi.nfse.model.Parametro</class>
+    <class>webiss.niteroi.nfse.model.Lote</class>
+    <class>webiss.niteroi.nfse.model.Mensagem</class>
+    <properties>
+      <!--<property name="javax.persistence.jdbc.url" value="jdbc:derby://localhost:1527/nfse"/>
+      <property name="javax.persistence.jdbc.user" value="nfse"/>
+      <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.ClientDriver"/>
+      <property name="javax.persistence.jdbc.password" value="nfse"/>
+      <property name="javax.persistence.schema-generation.database.action" value="create"/>-->
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlite:\\192.168.0.2\C\DrogavetSAG\data\dataBase.db"/>
+      <property name="javax.persistence.jdbc.user" value=""/>
+      <property name="javax.persistence.jdbc.driver" value="org.sqlite.JDBC"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+      <property name="javax.persistence.schema-generation.database.action" value="create"/>
+      <property name="eclipselink.cache.shared.default" value="false"/>
+      <property name="eclipselink.cache.size.default" value="0"/>
+      <property name="eclipselink.cache.type.default" value="NONE"/>
+      <property name="eclipselink.session-event-listener" value="webiss.niteroi.nfse.DAO.MySessionEventAdapter"/>
+      <property name="eclipselink.jdbc.cache-statements" value="false"/>
+      <property name="eclipselink.jpa.uppercase-column-names" value="true"/>
+    </properties>
+  </persistence-unit>
+</persistence>
